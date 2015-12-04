@@ -20,10 +20,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.BaseVi
 
     private Context mContext;
     private List<String> mDataSet;
+    private int i=0;
 
     public RecyclerAdapter(Context context) {
         mContext = context;
-        mDataSet = new ArrayList<String>();
+        mDataSet = new ArrayList<>();
     }
 
     @Override
