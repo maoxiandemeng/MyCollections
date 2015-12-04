@@ -90,8 +90,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initDatas() {
-        List<String> list = new ArrayList<String>();
-        for (int i = 0; i < 50; i++) {
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i <20; i++) {
             list.add("item " + i);
         }
         myAdapter.addAll(list, 0);
